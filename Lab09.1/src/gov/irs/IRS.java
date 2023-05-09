@@ -21,6 +21,7 @@ public class IRS {
     public void collectTaxes() {
         for (int i = 0; i < currentIndex; i++) {
             payers[i].payTaxes();
+//            payers[i].getName();   //getName() does not fall under IRS super (Object Class)
         }
     }
     
