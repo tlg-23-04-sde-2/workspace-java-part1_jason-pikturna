@@ -38,6 +38,8 @@ public class SalariedEmployee extends Employee {
         System.out.println(getName() + " paid taxes of:  " + taxes);
     }
 
+
+
     // accessor methods
     public double getSalary() {
         return salary;
