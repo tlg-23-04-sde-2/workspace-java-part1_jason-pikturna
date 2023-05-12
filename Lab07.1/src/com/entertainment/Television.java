@@ -121,11 +121,6 @@ public class Television {
         else {
             System.out.printf("Invalid brand: %s.  Valid brands are %s.\n",
            brand, Arrays.toString(VALID_BRANDS));
-
-            /*
-            System.out.println("Invalid brand:  " + brand +
-                    ".  Acceptable brands are:  " + Arrays.toString(VALID_BRANDS));
-            */
         }
 
     }
